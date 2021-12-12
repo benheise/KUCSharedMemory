@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_driver.cpp">
+      <Filter>Source\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper.cpp">
+      <Filter>Source\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp">
+      <Filter>Source\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intel_driver.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver_resource.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>Header Files\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="game.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7fbad116-9e1d-4781-a0e8-2a5cbbb04034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4f796f38-76e2-411b-a6c7-5f64927f04e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mapper">
+      <UniqueIdentifier>{e5b1f4fb-e00a-487c-a566-56d65a043b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{21113467-efd3-42ca-9145-3da9383a3949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{aff8b22d-8079-452a-973c-65ff05788d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\mapper">
+      <UniqueIdentifier>{b86531ac-f4b0-4062-9cd9-96c75be0476d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\utils">
+      <UniqueIdentifier>{410b707c-84c2-46b4-a4d0-4a99bbfc08c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
